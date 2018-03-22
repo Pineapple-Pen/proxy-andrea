@@ -1,0 +1,6 @@
+version: '3'
+services:
+  wegot-proxy:
+    build: .
+    ports:
+      - '81:3000'

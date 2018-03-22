@@ -1,0 +1,30 @@
+{
+  "name": "proxy-server-paolozroxas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bamboo-connection/proxy-server-paolozroxas.git"
+  },
+  "author": "Paolo Z. Roxas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bamboo-connection/proxy-server-paolozroxas/issues"
+  },
+  "homepage": "https://github.com/bamboo-connection/proxy-server-paolozroxas#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "jquery": "^3.3.1",
+    "morgan": "^1.9.0",
+    "nodemon": "^1.17.1",
+    "underscore": "^1.8.3"
+  }
+}
