@@ -4,7 +4,8 @@
   "description": "",
   "main": "server/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "nodemon -i proxy/public/services -i proxy/templates/services proxy/server.js",
+    "start": "node -i proxy/public/services -i proxy/templates/services proxy/server.js"
   },
   "repository": {
     "type": "git",
@@ -18,13 +19,24 @@
   "homepage": "https://github.com/bamboo-connection/proxy-server-paolozroxas#readme",
   "dependencies": {
     "axios": "^0.18.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
     "bluebird": "^3.5.1",
     "body-parser": "^1.18.2",
     "cors": "^2.8.4",
-    "express": "^4.16.2",
+    "dotenv": "^5.0.1",
+    "express": "^4.16.3",
+    "file-type": "^7.6.0",
     "jquery": "^3.3.1",
     "morgan": "^1.9.0",
+    "node-fetch": "^2.1.2",
     "nodemon": "^1.17.1",
-    "underscore": "^1.8.3"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "underscore": "^1.8.3",
+    "webpack": "^4.2.0"
   }
 }
