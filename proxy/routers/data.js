@@ -7,9 +7,9 @@ router.get('/:id/gallery', (req, res) => {
   res.redirect(`http://${process.env.HOST_PHOTOS}/api/restaurants/` + req.params.id + '/gallery');
 });
 
-// router.get('/:id/overview', (req, res) => {
-//   res.redirect(`http://${process.env.HOST_OVERVIEW}/api/restaurants/` + req.params.id + '/overview');
-// });
+router.get('/:id/overview', (req, res) => {
+  res.redirect(`http://${process.env.HOST_OVERVIEW}/api/restaurants/` + req.params.id + '/overview');
+});
 
 router.get('/:id/sidebar', (req, res) => {
   res.redirect(`http://${process.env.HOST_SIDEBAR}/api/restaurants/` + req.params.id + '/sidebar');

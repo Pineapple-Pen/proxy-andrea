@@ -1,3 +1,6 @@
 { 
-  "sidebar": "http://localhost:3003/bundle"
+  "sidebar": "http://localhost:3003/bundle",
+  
+  "overview": "http://192.168.43.46:3001/bundle",
+  "photos": "http://192.168.43.121:3002/bundle"
 }

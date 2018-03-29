@@ -12,7 +12,10 @@ app.use(cors());
 app.use(bodyParser.json());
 app.use(morgan('tiny'));
 
-
+if (!global.window) {
+  global.window = new Object();
+ }
+ 
 app.options((req, res) => {
   res.send('OK');
 });
