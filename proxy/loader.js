@@ -30,7 +30,7 @@ const fetchBundles = (path, services, suffix = '', require = false) => {
             .then(res => {
               const dest = fs.createWriteStream(filename);
               res.body.pipe(dest);
-              dest.on('close', () => {
+              res.body.on('end', () => {
                require ? loadBundle(services, item, filename) : null;
               });
             });
