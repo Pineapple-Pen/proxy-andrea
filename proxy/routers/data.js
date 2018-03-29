@@ -8,11 +8,11 @@ router.get('/:id/gallery', (req, res) => {
 });
 
 router.get('/:id/overview', (req, res) => {
-  res.redirect(`http://${process.env.HOST_OVERVIEW}/api/restaurants/` + req.params.id + '/overview');
+  res.redirect(`http://10.1.14.142:3001/api/restaurants/` + req.params.id + '/overview');
 });
 
 router.get('/:id/sidebar', (req, res) => {
-  res.redirect(`http://${process.env.HOST_SIDEBAR}/api/restaurants/` + req.params.id + '/sidebar');
+  res.redirect(`http://10.1.14.145:3003/api/restaurants/` + req.params.id + '/sidebar');
 });
 
 router.get('/:id/recommendations', (req, res) => {

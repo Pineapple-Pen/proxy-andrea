@@ -1,6 +1,4 @@
 { 
-  "sidebar": "http://10.8.65.25:3003/bundle",
-  "recommendations": "http://10.8.65.181:3004/bundle",
-
-  "photos": "http://10.8.65.173:3002/bundle"
+  "Sidebar": "http://localhost:3003/bundle",
+  "Overview": "http://10.1.14.142:3001/bundle"
 }
